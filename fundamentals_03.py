@@ -17,7 +17,7 @@ print(kamus_indo_english['anjing'])
 try:
     d = print(kamus_indo_english['dog'])
     if print(kamus_indo_english['dog']) == 'anjing':
-        print(d.text)  # mencetak isi halaman dari request diatas
+        print(d.text)  # mencetak isi 
 except Exception as e:
     print('Have a problem',e)
 #dictionary hanya satu arah, kalau ingin mencetak dari nilai ke key nya, harus mendeklarasikan dari kedua sisinya
